@@ -1,0 +1,48 @@
+/* début nav */
+
+body{
+    width: 1000px;
+    margin: 50px auto;
+  }
+  div#banner{
+    background:    url('http://img.faisalshuvo.com/binding_dark.png') repeat;
+    color: #e3e3e3;
+    font-family : Tahoma;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    width: 971px;
+    height: 80px;
+  }
+  ul#nav{
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    list-style: none;
+    float: left;
+    border-right: 1px solid #000000;
+  }
+  ul li:last-child{
+    border-right: none;
+  }
+  ul li a {
+    text-decoration: none;
+    display : block;
+    background: #111111;
+    padding: 10px 58px; 
+    color: #e3e3e3;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    -o-transition: all 2s;
+    -ms-transition: all 2s;
+    transition: all 2s;
+  }
+  ul li a:hover{
+    color: #ffffff;
+    background: #000000;
+    
+  }
+
+  /* Fin nav */
